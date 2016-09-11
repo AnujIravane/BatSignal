@@ -1,0 +1,6 @@
+framework module Pods_Bat_SignalTests {
+  umbrella header "Pods-Bat SignalTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Bat_Signal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Click Here to Send out a Bat Signal" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMW-2J-OQQ">
+                                <rect key="frame" x="131" y="28" width="274" height="144"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="144" id="oHH-jz-s8c"/>
+                                    <constraint firstAttribute="width" constant="274" id="tpx-qy-yLf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="37"/>
+                                <color key="textColor" red="1" green="0.85657333999999996" blue="0.032177105540000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Rm-5u-eX2">
+                                <rect key="frame" x="137" y="285" width="111" height="111"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQT-A7-kwX">
+                                <rect key="frame" x="245" y="285" width="111" height="111"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="ojg-S9-B4M"/>
+                                    <constraint firstAttribute="width" constant="111" id="yjK-gd-Y1k"/>
+                                </constraints>
+                                <state key="normal" image="batman2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Silent Guardian." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5UQ-pP-2L8">
+                                <rect key="frame" x="195" y="429" width="210" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="IAR-BF-5Wq"/>
+                                    <constraint firstAttribute="width" constant="210" id="KKw-RU-yjg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.68000000000000005" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Watchful Protector. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hjf-OK-KJf">
+                                <rect key="frame" x="172" y="456" width="256" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Q75-c9-zWv"/>
+                                    <constraint firstAttribute="width" constant="256" id="jnx-36-7Ka"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.68000000000000005" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Dark Knight." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bz9-3F-Rga">
+                                <rect key="frame" x="168" y="485" width="265" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="QU7-b6-e8F"/>
+                                    <constraint firstAttribute="width" constant="265" id="Ybv-bc-oR8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.68000000000000005" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lMW-2J-OQQ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="0lX-Ou-dTc"/>
+                            <constraint firstAttribute="centerX" secondItem="Hjf-OK-KJf" secondAttribute="centerX" id="7hu-64-C7k"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Hjf-OK-KJf" secondAttribute="bottom" constant="109" id="Af1-B1-ENR"/>
+                            <constraint firstAttribute="centerX" secondItem="cQT-A7-kwX" secondAttribute="centerX" id="KpF-2d-3qU"/>
+                            <constraint firstAttribute="centerY" secondItem="cQT-A7-kwX" secondAttribute="centerY" id="Sd2-dE-uyW"/>
+                            <constraint firstAttribute="centerX" secondItem="bz9-3F-Rga" secondAttribute="centerX" id="Yir-15-lJH"/>
+                            <constraint firstAttribute="centerX" secondItem="5UQ-pP-2L8" secondAttribute="centerX" id="Zmw-Z4-SkN"/>
+                            <constraint firstItem="bz9-3F-Rga" firstAttribute="top" secondItem="5UQ-pP-2L8" secondAttribute="bottom" constant="20" id="gPx-kX-RWK"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="bz9-3F-Rga" secondAttribute="bottom" constant="66" id="oNv-Ms-vJm"/>
+                            <constraint firstAttribute="centerX" secondItem="lMW-2J-OQQ" secondAttribute="centerX" id="r2p-NF-zkg"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="252" y="332"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="batman2" width="111" height="111"/>
+    </resources>
+</document>
