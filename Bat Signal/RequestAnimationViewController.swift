@@ -21,6 +21,7 @@ class RequestAnimationViewController : UIViewController {
         setupViewHierarchy()
         setupStaticConstraints()
         requestAnimationView.backgroundColor = .nightSkyColor()
+        //requestAnimationView.activateSignalPostedConstraints()
     }
     
     private func setupViewHierarchy() {

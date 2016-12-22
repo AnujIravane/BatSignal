@@ -23,7 +23,7 @@ extension UIColor {
         return UIColor(red: 129/255, green: 147/255, blue: 139/255, alpha: alpha)
     }
     
-    class func nighBatmanColor(alpha: CGFloat = 1.0) -> UIColor {
+    class func nightBatmanColor(alpha: CGFloat = 1.0) -> UIColor {
         return UIColor(red: 13/255, green: 37/255, blue: 47/255, alpha: alpha)
     }
     

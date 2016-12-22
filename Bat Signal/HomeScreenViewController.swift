@@ -15,7 +15,7 @@ class HomeScreenViewController : UIViewController {
     
     private lazy var homeScreenView: HomeScreenView = {
         let homeScreenView = HomeScreenView()
-        homeScreenView.backgroundColor = UIColor.grayColor()
+        //homeScreenView.backgroundColor = UIColor.grayColor()
         return homeScreenView
     }()
     

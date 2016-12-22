@@ -16,7 +16,6 @@
 		B27DFC124FD61C30B918014C /* Pods_Bat_Signal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF554CB305DBCFBC6B42E1F /* Pods_Bat_Signal.framework */; };
 		CE12BFA61D7AE94800B458A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE12BFA51D7AE94800B458A4 /* GoogleService-Info.plist */; };
 		CE12BFA81D8030E100B458A4 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12BFA71D8030E100B458A4 /* HomeScreenViewController.swift */; };
-		CE12BFAA1D80317600B458A4 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12BFA91D80317600B458A4 /* HomeScreenView.swift */; };
 		CE12BFAC1D808B7900B458A4 /* NSLayoutConstraintExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12BFAB1D808B7900B458A4 /* NSLayoutConstraintExtensions.swift */; };
 		CE78EE641D816F5400DC891D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78EE631D816F5400DC891D /* LoginViewController.swift */; };
 		CE78EE661D816F5C00DC891D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78EE651D816F5C00DC891D /* LoginView.swift */; };
@@ -28,6 +27,9 @@
 		CED719ED1D84853000424917 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED719EC1D84853000424917 /* UIColorExtensions.swift */; };
 		CED719EF1D848AA900424917 /* RequestAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED719EE1D848AA900424917 /* RequestAnimationView.swift */; };
 		CED719F11D84B4C200424917 /* RequestAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED719F01D84B4C200424917 /* RequestAnimationViewController.swift */; };
+		CED719F31D855FB300424917 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED719F21D855FB300424917 /* Constants.swift */; };
+		CED719F51D857DD700424917 /* BatFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED719F41D857DD700424917 /* BatFaceView.swift */; };
+		CED719FA1D85F27100424917 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED719F91D85F27100424917 /* HomeScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +58,6 @@
 		9FF554CB305DBCFBC6B42E1F /* Pods_Bat_Signal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bat_Signal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE12BFA51D7AE94800B458A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE12BFA71D8030E100B458A4 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
-		CE12BFA91D80317600B458A4 /* HomeScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		CE12BFAB1D808B7900B458A4 /* NSLayoutConstraintExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtensions.swift; sourceTree = "<group>"; };
 		CE78EE631D816F5400DC891D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CE78EE651D816F5C00DC891D /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -68,6 +69,9 @@
 		CED719EC1D84853000424917 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		CED719EE1D848AA900424917 /* RequestAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestAnimationView.swift; sourceTree = "<group>"; };
 		CED719F01D84B4C200424917 /* RequestAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestAnimationViewController.swift; sourceTree = "<group>"; };
+		CED719F21D855FB300424917 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CED719F41D857DD700424917 /* BatFaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatFaceView.swift; sourceTree = "<group>"; };
+		CED719F91D85F27100424917 /* HomeScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		D4D8280BB3681DB46E1D4A17 /* Pods-Bat Signal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bat Signal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bat Signal/Pods-Bat Signal.debug.xcconfig"; sourceTree = "<group>"; };
 		DB8F9908F76ABE6BEEF59249 /* Pods_Bat_SignalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bat_SignalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -127,13 +131,12 @@
 		9E27A5EE1B37B48E00375831 /* Bat Signal */ = {
 			isa = PBXGroup;
 			children = (
+				CED719F61D85F21500424917 /* HomeScreen */,
 				9E27A5F11B37B48E00375831 /* AppDelegate.swift */,
 				9E27A5F31B37B48E00375831 /* ViewController.swift */,
 				9E27A5F81B37B48E00375831 /* Images.xcassets */,
 				CE12BFA51D7AE94800B458A4 /* GoogleService-Info.plist */,
 				9E27A5EF1B37B48E00375831 /* Supporting Files */,
-				CE12BFA71D8030E100B458A4 /* HomeScreenViewController.swift */,
-				CE12BFA91D80317600B458A4 /* HomeScreenView.swift */,
 				CE12BFAB1D808B7900B458A4 /* NSLayoutConstraintExtensions.swift */,
 				CE78EE631D816F5400DC891D /* LoginViewController.swift */,
 				CE78EE651D816F5C00DC891D /* LoginView.swift */,
@@ -145,6 +148,8 @@
 				CED719EC1D84853000424917 /* UIColorExtensions.swift */,
 				CED719F01D84B4C200424917 /* RequestAnimationViewController.swift */,
 				CED719EE1D848AA900424917 /* RequestAnimationView.swift */,
+				CED719F21D855FB300424917 /* Constants.swift */,
+				CED719F41D857DD700424917 /* BatFaceView.swift */,
 			);
 			path = "Bat Signal";
 			sourceTree = "<group>";
@@ -172,6 +177,15 @@
 				9E27A6061B37B48E00375831 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED719F61D85F21500424917 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE12BFA71D8030E100B458A4 /* HomeScreenViewController.swift */,
+				CED719F91D85F27100424917 /* HomeScreenView.swift */,
+			);
+			name = HomeScreen;
 			sourceTree = "<group>";
 		};
 		D9E049A19BCFD3AE2E70DC42 /* Frameworks */ = {
@@ -392,13 +406,15 @@
 				CED719F11D84B4C200424917 /* RequestAnimationViewController.swift in Sources */,
 				CE78EE6C1D818EEC00DC891D /* BatAPI.swift in Sources */,
 				9E27A5F41B37B48E00375831 /* ViewController.swift in Sources */,
+				CED719FA1D85F27100424917 /* HomeScreenView.swift in Sources */,
+				CED719F31D855FB300424917 /* Constants.swift in Sources */,
 				9E27A5F21B37B48E00375831 /* AppDelegate.swift in Sources */,
 				CE78EE681D81878800DC891D /* LoginViewModel.swift in Sources */,
 				CED719E71D82E33C00424917 /* BatRequest.swift in Sources */,
+				CED719F51D857DD700424917 /* BatFaceView.swift in Sources */,
 				CE12BFAC1D808B7900B458A4 /* NSLayoutConstraintExtensions.swift in Sources */,
 				CE12BFA81D8030E100B458A4 /* HomeScreenViewController.swift in Sources */,
 				CE78EE6A1D81896800DC891D /* UIViewExtensions.swift in Sources */,
-				CE12BFAA1D80317600B458A4 /* HomeScreenView.swift in Sources */,
 				CED719EF1D848AA900424917 /* RequestAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
